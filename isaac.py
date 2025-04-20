@@ -1,4 +1,3 @@
-
 #idento el codigo con un try previniendo que solo sean ingresados datos numericos
 
 try:
@@ -17,4 +16,3 @@ try:
     #SE IMPRIME LA SALIDA DEL CODIGO, SE USA UN F-STRING COMO UNA MEJOR FORMA DE CONCATENAR, 
 except ValueError:
     print('Ingrese solo valores numericos')  
-
