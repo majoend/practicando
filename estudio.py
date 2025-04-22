@@ -32,6 +32,7 @@ fila = int(input('Ingresar fila:'))
 columna = int(input('Ingresar columna:'))
 simbolo = (input('Ingresar simbolo:'))
 
+
 for i in range(fila):
     for j in range(columna):
        print(simbolo, end='') #---> se pone un end para no saltar entre lineas 
@@ -42,6 +43,7 @@ while True:
     pelicula = input('cual es tu pelicula de magis fav:')
     if pelicula != "": #---> SI PELICULA ES DISTINTO A UNA CADENA VACIA, OSEA CONTIENE TEXTO, ENTONCES SALIMOS DEL BUCLE
         break
+
 
 #---> BUCLES FOR Y WHILE 
 # continue ---> saltar las condiciones que le estemos dando
