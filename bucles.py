@@ -1,4 +1,3 @@
-
 #---> BUCLES FOR
 
 frutas = 2 #---> para numeros
