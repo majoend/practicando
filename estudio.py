@@ -1,7 +1,7 @@
 
 #Se llama asignacion multiple cuando varias variables tienen un mismo valor
-nombre1 = nombre2 = nombre3 = 'hola'
-print(nombre1,nombre2,nombre3) #SALE IMPRESO TRES VECES 
+print(nombre1 := 'hola')
+#print(nombre1,nombre2,nombre3) #SALE IMPRESO TRES VECES 
 
 #Esta es otra forma de asignacion multiple
 nombre = 'Isaac'

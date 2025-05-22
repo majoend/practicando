@@ -1,12 +1,24 @@
 
+#operador morsa: BASICAMENTE ES PONER UNA VARIABLE Y USAR EL PRINT COMO EN EL EJEMPLO USANDO :=
 
-edad = int(input('Ingresa tu edad: '))
+print(saludo := 'Hola, que tal')
 
-if edad <= 18:
-    print('Buena edad')
+print(edad := 25)
+
+def saludo():
+    return
+
+saludo()
 
 
-elif 18 < edad < 30:
-    print('Eres un joven aún')
-elif 30 < edad < 40:
-    print('Estas en una edad excelente')
+
+def numerospares_impares(numeros):
+
+    if numeros % 2 == 0:
+        return "El número es par"
+    else:
+        return "El número es impar"
+
+numeros = int(input('Ingresa un numero')) 
+print(numerospares_impares(numeros))
+
