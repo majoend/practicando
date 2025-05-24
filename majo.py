@@ -11,14 +11,6 @@ def saludo():
 saludo()
 
 
-
-def numerospares_impares(numeros):
-
-    if numeros % 2 == 0:
-        return "El número es par"
-    else:
-        return "El número es impar"
-
-numeros = int(input('Ingresa un numero')) 
-print(numerospares_impares(numeros))
+import numpy
+print(numpy.__version__)
 
